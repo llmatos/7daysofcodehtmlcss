@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Clínica</title>
+</head>
+
+<body>
+    <div class="conteudo">
+
+        <header class="cabecalho">
+
+            <div class="barra">
+                <div class="barra__horario">3:33</div>
+                <div class="barra__status">
+                    <img src="img/signal_cellular_4_bar.svg" alt="sinal de rede" class="barra__status-imagem">
+                    <img src="img/battery_full.svg" alt="nível da bateria" class="barra__status-imagem">
+                    <img src="img/wifi.svg" alt="sinal wifi" class="barra__status-imagem">
+                </div>
+            </div>
+            <div class="apresentacao">
+                <img src="img/perfil-1.svg" alt="imagem do médico" class="apresentacao__imagem">
+                <div class="apresentacao__texto">
+                    <h1 class="apresentacao__texto-nome">Olá, Sônia</h1>
+                    <p class="apresentacao__texto-descricao">Mais 4 consultas hoje</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="barra__consulta">
+            <h1 class="barra__consulta-dia">Hoje</h1>
+        </div>
+        <div class="grid-container">
+            <!-- Cardo 01 - remoto -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-2.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Luciana Dias</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">14:00 - 15:00 (1 hora)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 - consulta presencial -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-3.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Larissa Santana</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">16:00 - 17:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 03 Remoto Marcos -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-4.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Marcos Correia</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">17:20 - 18:00 (40 minutos)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cardo 04 - remoto -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-2.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Luciana Dias</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">14:00 - 15:00 (1 hora)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 05 - Remoto Marcos -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-4.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Marcos Correia</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">17:20 - 18:00 (40 minutos)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 06 - consulta presencial -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-3.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Larissa Santana</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">16:00 - 17:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--------  Amanhã   ---------------->
+        <div class="barra__consulta">
+            <h1 class="barra__consulta-dia">Amanhã</h1>
+        </div>
+
+        <div class="grid-container">
+            <!-- 07 presencial - Carla -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-5.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Carla Lemos</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">18:00 - 19:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 08 remoto - Luciana -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-2.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Luciana Dias</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">14:00 - 15:00 (1 hora)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--09  Remoto Marcos -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-4.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Marcos Correia</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">17:20 - 18:00 (40 minutos)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 10 - consulta presencial -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-3.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Larissa Santana</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">16:00 - 17:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quarta-feira -->
+        <div class="barra__consulta">
+            <h1 class="barra__consulta-dia">Quarta-feira</h1>
+        </div>
+
+        <div class="grid-container">
+            <!--11 presencial - Carla -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-5.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Carla Lemos</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">18:00 - 19:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12 remoto - Luciana -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-2.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Luciana Dias</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">14:00 - 15:00 (1 hora)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13 Remoto Marcos -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-4.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Marcos Correia</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/Camera.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta Remota</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">17:20 - 18:00 (40 minutos)</h3>
+                    <div class="botoes">
+                        <div class="botao__ligar-video">
+                            <a href="#" class="botao__ligar-video-link">Ligar por Vídeo</a>
+                        </div>
+                        <div class="botao__ligar-audio">
+                            <a href="#" class="botao__ligar-audio-link">Ligar por Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 14 card 2 - consulta presencial -->
+            <div class="card">
+                <div class="card__remoto__paciente">
+                    <img src="img/perfil-3.svg" alt="paciente remoto" class="card__remoto-imagem">
+                    <div class="card__remoto__paciente-informacao">
+                        <h3 class="card__remoto-nome">Larissa Santana</h3>
+                        <div class="card__remoto__paciente-modalidade">
+                            <img src="img/pin.svg" alt="logo de uma câmera">
+                            <p class="card__remoto__paciente-modalidade-texto">Consulta presencial</p>
+                        </div>
+                    </div>
+
+                    <img src="img/chat1.svg" alt="log chat" class="card__remoto__paciente-chat">
+
+                </div>
+                <hr>
+                <div class="card__descricao">
+                    <h3 class="card__descricao-horario">16:00 - 17:00 (1 hora)</h3>
+                    <div class="botao__ver-endereco">
+                        <a href="#" class="botao__ver-endereco-link">Ver Endereço</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <button class="botao">
+                <img src="./img/maisicone.svg" alt="">
+            </button>
+        </div>
+
+
+    </div>
+    <footer class="rodape">
+        <a href="#" class="link__item">
+            <img src="./img/Item1.svg" alt="Consultas">
+        </a>
+        <a href="#">
+            <img src="./img/Item2.svg" alt="Clientes">
+        </a>
+        <a href="#">
+            <img src="./img/Item3.svg" alt="Relatórios">
+        </a>
+        <a href="#">
+            <img src="./img/Item4.svg" alt="Menu">
+        </a>
+    </footer>
+
+    <footer class="rodape__desktop">
+
+        <a href="#" class="link__item consulta">Consultas</a>
+        <a href="#" class="link__item cliente">Clientes</a>
+        <a href="#"class="link__item relatorio">Relatório</a>
+        <a href="#"class="link__item menu">Menu</a>
+       
+    </footer>
+
+    <div class="transparente"></div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

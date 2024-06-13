@@ -1,0 +1,6 @@
+.barra__consulta-dia {
+    padding: 2em 2em 0 1em;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+}

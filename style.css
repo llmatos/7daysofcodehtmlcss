@@ -1,0 +1,29 @@
+@import url("style/header.css");
+@import url("style/barraConsultas.css");
+@import url("style/card.css");
+@import url("style/rodape.css");
+
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #F6F6F6;
+    --laranja: #FFB050;
+    --cinza-secundario: #ececec;
+    --preto: #464646;
+    --azul: #4894FF;
+    --translucido: #000000;
+
+
+
+    --fonte-principal: "Montserrat"
+
+}
+
+
+body {
+    background-color: var(--cinza);
+    font-family: var(--fonte-principal);
+}
+
+
+
