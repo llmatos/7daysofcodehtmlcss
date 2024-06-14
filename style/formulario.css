@@ -1,18 +1,27 @@
-.cadastrar__consulta {
-    background-color: var(--cinza);
-    border:2px dashed var(--cinza-form); 
-    width: 50vw;
-    font-family: var(--fonte-principal);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--cinza-form);
-}
+@media screen and (min-width: 767px) {
+    .cadastrar__consulta {
+        background-color: var(--cinza);
+        border:2px dashed var(--cinza-form); 
+        width: 50vw;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--cinza-form);
+        padding: 1em 2em;
+        left: 10em
+    }
+    
+    .nome__paciente {
+        border: 1px solid var(--cinza-secundario);
+        background-color: var(--branco);
+        width: 15em;
+        height: 2.5em;
+    }
+    
+    input::placeholder{
+        color: var(--placeholder);
+        
+    }
 
-.nome__paciente {
-    border: 1px solid var(--cinza-secundario);
-    background-color: var(--branco);
-}
-
-input::placeholder{
-    color: var(--placeholder);
+  
 }
