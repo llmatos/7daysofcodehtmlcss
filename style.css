@@ -2,7 +2,7 @@
 @import url("style/barraConsultas.css");
 @import url("style/card.css");
 @import url("style/rodape.css");
-
+@import url("style/formulario.css");
 
 :root {
     --branco: #FFFFFF;
@@ -12,6 +12,8 @@
     --preto: #464646;
     --azul: #4894FF;
     --translucido: #000000;
+    --cinza-form: #898989;
+    --placeholder: #cfcfcf;
 
 
 

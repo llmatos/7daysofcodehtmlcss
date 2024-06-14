@@ -1,0 +1,18 @@
+.cadastrar__consulta {
+    background-color: var(--cinza);
+    border:2px dashed var(--cinza-form); 
+    width: 50vw;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-form);
+}
+
+.nome__paciente {
+    border: 1px solid var(--cinza-secundario);
+    background-color: var(--branco);
+}
+
+input::placeholder{
+    color: var(--placeholder);
+}
